@@ -1,19 +1,16 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * @description: Java List implementation based on the given specification.
+ * @author: Sinisa Ristic <sinisa.ristic@gmail.com>
+ * @date: 29.04.2017.
  */
 package javacollectiontest;
 
-import java.util.Collection;
-import java.util.HashSet;
 import java.util.Iterator;
-import java.util.Set;
 
 /**
  *
  * @author Sinisa Ristic
- */public class MyList implements CustomCollection, Iterator<CustomElement>, Cloneable {
+ */public class MyList implements CustomCollection, Iterator<CustomElement> {
     
     private CustomElement first, current;
     private int length = 0;

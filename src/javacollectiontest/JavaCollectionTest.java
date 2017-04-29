@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * @decription: Java test application. What we are testing is behaviour of 'MyList' class.
+ * @author: Sinisa Ristic <sinisa.ristic@gmail.com>
+ * @date: 29.04.2017.
  */
 package javacollectiontest;
 
@@ -10,6 +10,7 @@ import java.util.Iterator;
 /**
  *
  * @author Sinisa Ristic
+ * @version 1.0
  */
 public class JavaCollectionTest {
 
